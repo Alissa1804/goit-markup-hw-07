@@ -1,0 +1,42 @@
+.benifits.section {
+  padding-bottom: 0;
+}
+
+.benifits__list {
+  display: flex;
+}
+
+.benifits__item {
+  max-width: 270px;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+.benifits__thumb {
+  width: 270px;
+  height: 120px;
+  background-color: var(--background-color-light);
+  border-radius: 4px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.benifits__title {
+  color: var(--title-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.benifits__text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}

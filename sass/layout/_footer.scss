@@ -1,0 +1,11 @@
+.footer {
+  background-color: var(--background-color-dark);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer__wrapper {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
