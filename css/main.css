@@ -124,12 +124,12 @@ button {
   margin-right: 50px;
 }
 
-.nav__link.current {
+.nav__link--current {
   position: relative;
   color: var(--accent-color);
 }
 
-.nav__link.current::after {
+.nav__link--current::after {
   position: absolute;
   left: 0;
   bottom: 0;
@@ -157,13 +157,13 @@ button {
   margin-right: 93px;
 }
 
+.logo--footer {
+  color: var(--primary-color);
+}
+
 .footer__logo {
   display: block;
   margin-bottom: 20px;
-}
-
-.logo--footer {
-  color: var(--primary-color);
 }
 
 .contacts__icon {
@@ -337,28 +337,6 @@ button {
 
 .address__link--geo {
   color: var(--primary-color);
-}
-
-.follow__title {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--primary-color);
-}
-
-.follow__list {
-  display: flex;
-  margin-top: 20px;
-}
-
-.follow__item:not(:last-child) {
-  margin-right: 10px;
-}
-
-.follow__icon {
-  fill: currentColor;
 }
 
 .subscribe__title {
@@ -809,6 +787,28 @@ button {
 }
 
 .clients__icon {
+  fill: currentColor;
+}
+
+.follow__title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-color);
+}
+
+.follow__list {
+  display: flex;
+  margin-top: 20px;
+}
+
+.follow__item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.follow__icon {
   fill: currentColor;
 }
 

@@ -19,7 +19,7 @@
 
   &:hover,
   &:focus {
-   color: var(--accent-color);
+    color: var(--accent-color);
   }
 }
 
@@ -27,21 +27,19 @@
   margin-right: 50px;
 }
 
-.nav__link.current {
+.nav__link--current {
   position: relative;
   color: var(--accent-color);
 
   &::after {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  display: inline-block;
-  content: '';
-  height: 4px;
-  border-radius: 2px;
-  width: 100%;
-  background-color: var(--accent-color);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: inline-block;
+    content: '';
+    height: 4px;
+    border-radius: 2px;
+    width: 100%;
+    background-color: var(--accent-color);
   }
 }
-
-
